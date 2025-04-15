@@ -1,0 +1,108 @@
+@media only screen and (max-width: 768px) {
+  .hero-home-page {
+    height: 850px !important;
+  }
+  .hero-home-page .right-hero-home-page {
+    width: 100%;
+  }
+  .left-hero-home-page {
+    width: 100%;
+    top: -122px;
+    right: -42px;
+  }
+
+  /* Features */
+  .features .heading-feature{
+    text-align: center;
+  }
+  .features .heading-feature h2 {
+    width: 100%;
+    padding-bottom: 15px;
+  }
+  .features .heading-feature p {
+    width: 100%;
+  }
+
+  /* About */
+  .about{
+    padding: 0;
+  }
+  .about-image-area{
+    margin-bottom: 80px;
+  }
+  .about-text {
+    text-align: center;
+  }
+  /* topics */
+  .topics{
+    margin-top: 50px;
+  }
+  .topics  .slider {
+    flex-wrap: wrap;
+  }
+  .topics  .slider .card{
+    width: 100%;
+    padding: 10px !important;
+    margin-bottom: 0;
+  }
+
+  .topics .card img{
+    width: 20%;
+  }
+
+  /* Pricing */
+  .pricing{
+    margin: 50px 0;
+
+  }
+  .pricing .app-pricing{
+    gap: 0;
+  }
+  .app-pricing .pricing-card {
+    width: 95%;
+  }
+
+  .pricing .section-header{
+    width: 90%;
+  }
+
+  /* testimonials */
+  .testimonials{
+    padding: 0 30px;
+  }
+  .testimonials .app-testimonials{
+  flex-direction: column;
+  }
+  .testimonials .app-testimonials .text {
+    width: 80%;
+  }
+  .testimonials .app-testimonials .elements {
+    width: 100%;
+  }
+  .testimonials .app-testimonials .elements{
+    flex-direction: column;
+  }
+  .testimonials .app-testimonials .elements .left {
+    animation: unset;
+
+  }
+  
+  .testimonials .app-testimonials .elements .right {
+    animation: unset;
+  }
+  
+  /* partners */
+  .partners .section-header{
+    width: 80%;
+    padding-bottom: 30px;
+  }
+
+
+  /* newsletter */
+.newsletter{
+  padding: 30px 0;
+}
+
+  /* Public */
+ 
+}
