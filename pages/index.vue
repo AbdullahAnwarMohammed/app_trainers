@@ -8,7 +8,7 @@
     <Categories />
     <Testimonials />
     <Partners />
-    <Newsletter />
+
 
   </div>
 </template>
@@ -22,7 +22,6 @@ import Pricing from '@/components/Pricing.vue'
 import Categories from '@/components/Categories.vue'
 import Testimonials from '@/components/Testimonials.vue'
 import Partners from '@/components/Partners.vue'
-import Newsletter from '@/components/Newsletter.vue'
 
 export default {
   components: {
@@ -34,7 +33,6 @@ export default {
     Categories,
     Testimonials,
     Partners,
-    Newsletter
   }
 }
 
