@@ -14,10 +14,7 @@ export default defineNuxtConfig({
       ],
       link: [
         { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
-        {
-          rel: "stylesheet",
-          href: "https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css",
-        },
+
         {
           rel: "stylesheet",
           href: "https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css",
@@ -30,6 +27,10 @@ export default defineNuxtConfig({
           rel: "stylesheet",
           href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css",
         },
+        {
+          rel: 'stylesheet',
+          href: 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css'
+        }
       ],
       script: [
         {
@@ -40,26 +41,22 @@ export default defineNuxtConfig({
           href: "https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js",
           type: "text/javascript",
         },
-        // {
-        //   href: "/assets/js/wow.min.js",
-        //   type: "text/javascript",
-        // },
-        // {
-        //   href: "/assets/js/script.js",
-        //   type: "text/javascript",
-        // },
+        {
+          src: 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js',
+          tagPosition: 'bodyClose'
+        }
       ],
     },
   },
 
   css: [
-    "bootstrap/dist/css/bootstrap.min.css",
     "@/assets/css/animate.css",
+    "animate.css/animate.css",
+    // "bootstrap/dist/css/bootstrap.min.css",
     "@/assets/css/style.css",
     "@/assets/css/responsive.css",
-    "animate.css/animate.css",
   ],
-
+  plugins: ["~/plugins/bootstrap.client.ts"],
 
   components: true,
 });
