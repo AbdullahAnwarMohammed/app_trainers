@@ -66,7 +66,7 @@ onMounted(async () => {
           responsive: [
             { breakpoint: 1200, settings: { slidesToShow: 4 } },
             { breakpoint: 992, settings: { slidesToShow: 3 } },
-            { breakpoint: 767, settings: { slidesToShow: 2, dots: true, arrows: false } }
+            { breakpoint: 767, settings: { slidesToShow: 3, dots: true, arrows: false } }
           ]
         });
 

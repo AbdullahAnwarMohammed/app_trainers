@@ -23,6 +23,13 @@
     width: 100%;
   }
 
+  .features .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+
   /* About */
   .about{
     padding: 0;

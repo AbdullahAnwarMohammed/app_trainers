@@ -26,6 +26,9 @@
             <li class="nav-item">
               <a class="nav-link" href="#">مكتبنا</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/graduates">خريجنا</a>
+            </li>
           </ul>
           <form class="d-flex form-search-nav" role="search">
             <input class="form-control me-2 input-form-search-nav" type="search" placeholder="البحث"

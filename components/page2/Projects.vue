@@ -34,7 +34,7 @@
                                                 <span class="badge bg-danger">Best Seller</span>
                                             </div>
                                         </div>
-                                        <h5>{{ item.title }}</h5>
+                                        <h5><a href="/course-details">{{ item.title }}</a></h5>
                                         <span class="instructor-name"><i class="far fa-user"></i> {{ item.instructor
                                             }}</span>
                                         <p>{{ item.description }}</p>

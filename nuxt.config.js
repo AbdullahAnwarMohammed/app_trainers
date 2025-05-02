@@ -56,7 +56,8 @@ export default defineNuxtConfig({
     "@/assets/css/style.css",
     "@/assets/css/responsive.css",
   ],
-  plugins: ["~/plugins/bootstrap.client.ts"],
+
 
   components: true,
+  compatibilityDate: "2025-05-01",
 });

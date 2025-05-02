@@ -1,12 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&display=swap");
 
 :root {
+  --primary-color: #ef4050;
+  --secondary-color: #2B2B2B;
+  --dark-main-color: #782028;
+  --white-color: #fff;
+  --light-gray: #f8f9fa;
+  --card-bg: #f4f6f9;
+  --accent-color: #fbd300;
+  --text-dark: #1a1a1a;
+  --text-light: #4a4a4a;
+  --border-radius: 15px;
+  --box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  --transition: all 0.3s ease;
+
   --main-color: #ef4050;
   --dark-main-color: #782028;
   --white-color: #fff;
   --gray-color: #627a95;
   --warning-color: #fbd300;
 }
+
 
 body {
   /* font-family: 'MyCustomFont', sans-serif; */
@@ -257,6 +271,14 @@ img{
 }
 
 /* Update Freamwork Bootstrap */
+.page-item:first-child .page-link{
+  background-color: #ef4050;
+  color: #fff;
+}
+.active>.page-link, .page-link.active{
+  background-color: #ef4050;
+  color: #fff !important;
+}
 .navbar-expand-lg {
   padding: 20px 0;
 }
@@ -1254,6 +1276,7 @@ box-shadow: 10px 10px 8px -10px rgba(0,0,0,0.31);
   gap: 10px;
   align-items: center;
 }
+
 
 
 /* Public */
