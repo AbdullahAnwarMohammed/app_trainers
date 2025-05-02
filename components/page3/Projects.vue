@@ -34,7 +34,7 @@
                   <img :src="course.image" alt="" />
                   <h5>{{ course.title }}</h5>
                   <p>{{ course.description }}</p>
-                  <a href="">
+                  <a href="/forex-course-details">
                     التفاصيل <i class="fa-solid fa-arrow-left"></i>
                   </a>
                 </div>

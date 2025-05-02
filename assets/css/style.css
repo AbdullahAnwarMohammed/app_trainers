@@ -1280,6 +1280,10 @@ box-shadow: 10px 10px 8px -10px rgba(0,0,0,0.31);
 
 
 /* Public */
+.router-link-active {
+  font-weight: bold;
+  color: var(--primary-color) !important;
+}
 #app-appilcation {
   width: 100%;
   overflow-y: hidden;

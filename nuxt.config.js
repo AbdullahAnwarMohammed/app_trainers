@@ -1,5 +1,6 @@
 // nuxt.config.ts
 export default defineNuxtConfig({
+  ssr: false,
   app: {
     head: {
       title: "App Trainers",
@@ -34,11 +35,11 @@ export default defineNuxtConfig({
       ],
       script: [
         {
-          href: "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js",
+          src: "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js",
           type: "text/javascript",
         },
         {
-          href: "https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js",
+          src: "https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js",
           type: "text/javascript",
         },
         {

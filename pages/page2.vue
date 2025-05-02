@@ -2,7 +2,7 @@
     <div>
         <Banner />
         <Projects />
-        <Video />
+        <Videoo />
         <div class="container">
             <Pricing />
             <Categories />
@@ -13,7 +13,7 @@
 <script>
 import Banner from '~/components/page2/Banner.vue'
 import Projects from '~/components/page2/Projects.vue'
-import Video from '~/components/page2/Video.vue'
+import Videoo from '~/components/page2/Video.vue'
 import Pricing from '@/components/Pricing.vue'
 import Categories from '@/components/Categories.vue'
 
@@ -21,7 +21,7 @@ export default {
     components: {
         Banner,
         Projects,
-        Video,
+        Videoo,
         Pricing,
         Categories,
 
